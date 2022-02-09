@@ -1,5 +1,7 @@
 # go-example
 
+![Example image](https://fnts.fly.dev/art/blackhole)
+
 A minimal Go application for [fly.io Getting Started](https://fly.io/docs/getting-started/golang/) documentation and tutorials.
 
 To get started:
