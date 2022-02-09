@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/fly-apps/go-example/arts"
-	"github.com/fly-apps/go-example/common"
 	"github.com/jdxyw/generativeart"
 	"github.com/julienschmidt/httprouter"
+	"github.com/notmahi/fnts/arts"
+	"github.com/notmahi/fnts/common"
 )
 
 func main() {
@@ -36,11 +36,10 @@ func generalizedHandler(w http.ResponseWriter, r *http.Request, p httprouter.Par
 
 	// First, build a map for handling routes
 	m := map[string]func() ([]byte, error){
-		"blackhole":  drawBlackhole,
-		"circlegrid": drawCircleGrid,
-		"circleline": drawCircleLine,
-		// "circleloop":   drawCircleLoop,
-		"circleloop2":  drawCircleLoop2,
+		"blackhole":    drawBlackhole,
+		"circlegrid":   drawCircleGrid,
+		"circleline":   drawCircleLine,
+		"circleloop":   drawCircleLoop2,
 		"circlemove":   drawCircleMove,
 		"circlenoise":  drawCircleNoise,
 		"colorcanva":   drawColorCanva,

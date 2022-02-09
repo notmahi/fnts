@@ -1,4 +1,4 @@
-module github.com/fly-apps/go-example
+module github.com/notmahi/fnts
 
 go 1.16
 
