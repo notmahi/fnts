@@ -1,4 +1,4 @@
-# go-example
+# FNTs
 
 ![Example image](https://fnts.fly.dev/art/blackhole)
 
